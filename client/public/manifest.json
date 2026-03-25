@@ -1,0 +1,17 @@
+{
+  "name": "CanvasTogether",
+  "short_name": "Draw",
+  "description": "Real-time multiplayer drawing",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1020",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

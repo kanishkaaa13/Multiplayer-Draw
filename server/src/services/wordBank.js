@@ -1,0 +1,36 @@
+export const WORD_BANK = [
+  "rocket",
+  "galaxy",
+  "penguin",
+  "coffee",
+  "pyramid",
+  "guitar",
+  "bridge",
+  "hurricane",
+  "cookie",
+  "castle",
+  "submarine",
+  "magnet",
+  "banana",
+  "volcano",
+  "helicopter",
+  "lighthouse",
+  "snowman",
+  "dragon",
+  "microscope",
+  "campfire",
+  "dolphin",
+  "eclipse",
+  "telescope",
+  "laptop",
+  "pineapple",
+  "rainbow",
+  "skeleton",
+  "octopus",
+  "garden",
+  "treasure",
+];
+
+export function randomWord() {
+  return WORD_BANK[(Math.random() * WORD_BANK.length) | 0];
+}
